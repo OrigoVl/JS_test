@@ -1,0 +1,20 @@
+body {
+  margin: 40px 200px;
+}
+
+input {
+  display: block;
+}
+
+button {
+  display: block;
+  margin: 20px 0;
+}
+
+.registration {
+}
+
+.error-message {
+  font-size: 10px;
+  color: #f00;
+}

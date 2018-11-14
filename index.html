@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body>
+    <form class="j-registration">
+      <label class="j-wrapper">
+        <input
+          class="j-input"
+          placeholder="Name"
+          type="text"
+          data-validation="required|min_length:3|max_length:10"
+        />
+        <span class="error-message j-error"> </span>
+      </label>
+      <label class="j-wrapper">
+        <input
+          class="j-input"
+          placeholder="Email"
+          type="text"
+          data-validation="required|min_length:3|max_length:10"
+        />
+        <span class="error-message j-error" data-error="email"> </span>
+      </label>
+      <label class="j-wrapper">
+        <input
+          class="j-input"
+          placeholder="password"
+          type="password"
+          data-validation="required|min_length:3|max_length:10"
+        />
+        <span class="error-message j-error"> </span>
+      </label>
+      <button>Зарегистрироваться</button>
+    </form>
+    <script src="src/index.js"></script>
+  </body>
+</html>
